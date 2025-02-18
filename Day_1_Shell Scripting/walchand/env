@@ -1,0 +1,12 @@
+echo -n "please enter a count:"
+read count
+if [ $count -eq 42 ]
+then
+echo "Equals"
+elif [ $count -lt 42 ]
+then
+echo "count is less then 42"
+else
+echo "Greater than 42"
+fi
+

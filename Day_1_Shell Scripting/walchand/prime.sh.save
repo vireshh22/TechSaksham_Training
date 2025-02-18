@@ -1,0 +1,13 @@
+echo "enter a number"
+read num
+i=2
+while [ $i -lt num ]
+do
+if [ $((num % i)) -eq 0 ];
+then
+echo "It is not prime number"
+else
+echo "It is prime number"
+fi
+i = 'expr $i + 1'
+done

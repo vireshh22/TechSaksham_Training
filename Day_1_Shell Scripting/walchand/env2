@@ -1,0 +1,7 @@
+echo -n "Please enter value of a: "
+read a
+while [ $a -lt 10 ]
+do
+ echo $a
+ a= expr $a + 1
+done

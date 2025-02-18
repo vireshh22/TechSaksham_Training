@@ -1,0 +1,15 @@
+echo "Second way"
+for i in 1 2 3 4 5 6
+do
+echo "$i"
+done
+
+<<here
+third way
+here
+
+echo "Third way"
+for ((i=1;i<=10;i++))
+do
+echo "$i"
+done
